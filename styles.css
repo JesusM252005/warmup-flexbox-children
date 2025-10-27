@@ -1,0 +1,29 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.side-bar {
+    background-color: azure;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+.main-content {
+    background-color: antiquewhite;
+    flex: 1 1 50px;
+    padding: 20px;
+}
+
+
+.side-bar-main-wrapper {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+}
